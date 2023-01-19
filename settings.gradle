@@ -1,0 +1,31 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        google()
+        mavenCentral()
+    }
+}
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+    repositories {
+        google()
+        mavenCentral()
+//        maven { url 'https://mapbox.bintray.com/mapbox' }
+//        maven {
+//            url 'https://mapbox.bintray.com/mapbox'
+//            authentication {
+//                basic(BasicAuthentication)
+//            }
+//            credentials {
+//                // Do not change the username below.
+//                // This should always be `mapbox` (not your username).
+//                username = "mapbox"
+//                // Use the secret token you stored in gradle.properties as the password
+//                password = "pk.eyJ1Ijoib2hpcyIsImEiOiJjbGN2NnlqaTcxZ2w4M3Ftc2prNXZ4dzM0In0.VYMry1SOc8OYtVn-YCkjbA"
+//            }
+//        }
+    }
+}
+rootProject.name = "TakeMeThere"
+include ':app'
